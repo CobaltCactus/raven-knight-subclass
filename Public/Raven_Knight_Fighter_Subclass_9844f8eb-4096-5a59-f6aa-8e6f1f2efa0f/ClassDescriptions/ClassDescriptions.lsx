@@ -15,6 +15,7 @@
                     <attribute id="ProgressionTableUUID" type="guid" value="b8a6b087-8a96-486a-ba67-0f5e434309c6"/>
                     <attribute id="SoundClassType" type="FixedString" value="Fighter"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="SpellList" type="guid" value="4371355d-ef8c-4b3c-85bf-44c47ac88990"/>
                     <attribute id="UUID" type="guid" value="f277e916-c112-4b57-aa2c-89a37d122e45"/>
                 </node>
             </children>

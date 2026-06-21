@@ -14,5 +14,21 @@
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="IsWeaponAttack() and (not IsMiss() or IsCritical())" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8ba0ebcd-5aa6-4549-8f5c-286e78ff4b87" />
+        <field name="Name" type="NameTableFieldDefinition" value="FEATHER_STEP" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he075b84bge872g8851g2f6eg2b301a1c0d18" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbac354fag68b8gba21g9fecgd10b6f484e0d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Status_Fly" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_Fly_MO" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_Fly_MO_Stop" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FEATHER_STEP" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,1.5,0);UnlockSpell(Projectile_Fly_Spell);" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="70e3142f-6fde-4718-815f-a419e6bfaa23" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

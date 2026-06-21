@@ -9,10 +9,34 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc67d57d9g2cc3g923ag223cgfffd92f44f00" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveAction_GreatWeaponMaster_AllIn" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="(((not HasStatus('WILDSHAPE_TECHNICAL',context.Target) and HasHPLessThan(1)) and not Ally() and Character()) or (HasDamageEffectFlag(DamageFlags.Critical) and not HasDamageEffectFlag(DamageFlags.Miss) and not Ally() and Character())) and not SpellId('Target_GreatWeaponMaster_BonusAttack') and IsWeaponAttack() and IsMeleeAttack();" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="(((not HasStatus('WILDSHAPE_TECHNICAL',context.Target) and HasHPLessThan(1)) and not Ally() and Character()) or (HasDamageEffectFlag(DamageFlags.Critical) and not HasDamageEffectFlag(DamageFlags.Miss) and not Ally() and Character())) and IsAttack() and DistanceToTargetLessThan(2.5);" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, SOUL_ENHANCED,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="36fffb19-6081-4df1-a320-c88d043ac631" />
+        <field name="Name" type="NameTableFieldDefinition" value="RavenMedicineProficiency" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdac0ba5cg6a41g416ag9595g43610462d5d9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h98046f65gebc7gf54cg06c2g04c26c8df5b5" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_KnowledgeOfTheAges" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;DisplayBoostInTooltip" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Medicine);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f939443e-9967-4288-9996-3e1b6aba70d4" />
+        <field name="Name" type="NameTableFieldDefinition" value="FeatherStep" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Fly" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, FEATHER_STEP100,1)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h446cb438g898dga43fgb8c3gcbf5d62d0a34" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2ce893e1g69a2gcc0dgfd95g8c022ba3aca4" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

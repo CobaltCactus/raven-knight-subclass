@@ -5,6 +5,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4371355d-ef8c-4b3c-85bf-44c47ac88990" />
         <field name="Name" type="NameTableFieldDefinition" value="Fighter (Raven Knight)" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_Feather_Step_Spell" />
       </fields>
     </stat_object>
   </stat_objects>

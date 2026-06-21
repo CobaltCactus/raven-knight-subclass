@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="67731907-4ad8-4be6-9326-d6f5b982140e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1b81b1ce-404a-4a6f-99de-ed599c2a5855" />
+        <field name="Name" type="NameTableFieldDefinition" value="Feather_Step_Spell" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ca82d006-36ab-4fc3-a3f0-6d20131e6789" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="AddRangeFromAbility" type="StringTableFieldDefinition" value="Strength,1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

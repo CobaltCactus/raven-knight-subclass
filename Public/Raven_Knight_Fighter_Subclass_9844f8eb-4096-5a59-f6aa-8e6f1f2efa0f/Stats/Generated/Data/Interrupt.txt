@@ -1,9 +1,0 @@
-new entry "Interrupt_Soul_Severing"
-type "InterruptData"
-using "Interrupt_FungalInfestation"
-data "DisplayName" "h4e840505g27b6g4f06g1eb4g85a8ec1f4283;1"
-data "Description" "h4e865d84g44afg68b5gc703g6354ae84e523;2"
-data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and HasDamageEffectFlag(DamageFlags.Hit) and IsKillingBlow() and (Tagged('BEAST') or Tagged('HUMANOID')) and not DistanceToEntityGreaterThan(4.5, context.ObserverPosition, context.Target);"
-data "Properties" "ApplyStatus(OBSERVER_OBSERVER, SOUL_ENHANCED, 100, 1);"
-data "Cost" "ReactionActionPoint:1;"
-

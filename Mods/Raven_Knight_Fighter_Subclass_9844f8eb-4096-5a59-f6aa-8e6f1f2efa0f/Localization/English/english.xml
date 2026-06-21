@@ -8,4 +8,10 @@
   <content contentuid="h6111b76fgae97g83bcga065g0e3f24e7b8b6" version="1">You are a Raven Knight, charged by the Raven Queen herself to protect Her realm and the Shadowfel from all those who would abuse its dark power.</content>
   <content contentuid="h0ec5195fg99ddg4f0bg7832gc77970c86432" version="2"> Soul Severing</content>
   <content contentuid="hc67d57d9g2cc3g923ag223cgfffd92f44f00" version="2">When an enemy dies within 15 ft of you, you empower your weapon with that creature's soul's energy. Your next weapon attack does necrotic damage equal to half your fighter level.</content>
+  <content contentuid="hdac0ba5cg6a41g416ag9595g43610462d5d9" version="1">Medicine Proficiency</content>
+  <content contentuid="h98046f65gebc7gf54cg06c2g04c26c8df5b5" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Medicine.</content>
+  <content contentuid="he075b84bge872g8851g2f6eg2b301a1c0d18" version="1">Feather Step</content>
+  <content contentuid="hbac354fag68b8gba21g9fecgd10b6f484e0d" version="1">You move with the grace of the raven. Your walking speed increases by 10ft. Additionally, as a bonus action, you gain a flight speed equal to your walking speed until the end of your turn. If you end your turn in midair, you drop to the ground.</content>
+  <content contentuid="h446cb438g898dga43fgb8c3gcbf5d62d0a34" version="1">Feather Step</content>
+  <content contentuid="h2ce893e1g69a2gcc0dgfd95g8c022ba3aca4" version="1">Flight skill</content>
 </contentList>

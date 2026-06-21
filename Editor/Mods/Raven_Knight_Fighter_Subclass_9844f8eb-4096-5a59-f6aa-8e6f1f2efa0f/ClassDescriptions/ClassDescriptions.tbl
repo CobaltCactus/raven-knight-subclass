@@ -15,6 +15,7 @@
         <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
         <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Fighter" />
         <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="b8a6b087-8a96-486a-ba67-0f5e434309c6" />
+        <field name="SpellList" type="GuidObjectTableFieldDefinition" value="4371355d-ef8c-4b3c-85bf-44c47ac88990" />
       </fields>
     </stat_object>
   </stat_objects>

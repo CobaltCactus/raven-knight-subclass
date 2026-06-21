@@ -1,0 +1,7 @@
+new entry "Projectile_Feather_Step_Spell"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Fly_Spell"
+data "TargetRadius" "18"
+data "AddRangeFromAbility" "Strength,1"
+
