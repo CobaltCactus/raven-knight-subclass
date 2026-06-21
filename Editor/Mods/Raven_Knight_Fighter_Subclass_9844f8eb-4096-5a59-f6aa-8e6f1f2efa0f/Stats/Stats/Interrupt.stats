@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="c496009d-a970-44a3-b882-7ed3364dc271">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="667d875a-86fa-43e2-a978-da49c4006cd0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Soul_Severing" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a6309a2a-4b67-474c-8167-7765bae18437" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4e840505g27b6g4f06g1eb4g85a8ec1f4283" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4e865d84g44afg68b5gc703g6354ae84e523" version="2" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self() and not Item() and HasDamageEffectFlag(DamageFlags.Hit) and IsKillingBlow() and (Tagged('BEAST') or Tagged('HUMANOID')) and not DistanceToEntityGreaterThan(4.5, context.ObserverPosition, context.Target);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(OBSERVER_OBSERVER, SOUL_ENHANCED, 100, 1);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

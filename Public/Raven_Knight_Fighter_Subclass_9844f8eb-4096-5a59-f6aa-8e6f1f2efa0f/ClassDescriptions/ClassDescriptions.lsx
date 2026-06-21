@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="ClassDescriptions">
+        <node id="root">
+            <children>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h6111b76fgae97g83bcga065g0e3f24e7b8b6" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hcc26341eg1145g84beg321cg1ece739c431d" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="RavenKnight"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="b8a6b087-8a96-486a-ba67-0f5e434309c6"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Fighter"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="f277e916-c112-4b57-aa2c-89a37d122e45"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

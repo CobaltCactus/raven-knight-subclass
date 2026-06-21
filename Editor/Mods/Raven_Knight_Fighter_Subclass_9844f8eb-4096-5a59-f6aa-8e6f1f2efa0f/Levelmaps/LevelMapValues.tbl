@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="2d56f038-865d-492c-b434-c2b3e821cc13">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="HalfFighterLevel" />
+        <field name="UUID" type="IdTableFieldDefinition" value="dab3a9b0-93da-4c7f-9d87-34b36972837f" />
+        <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="721dfac3-92d4-41f5-b773-b7072a86232f" />
+        <field name="Level1" type="StringTableFieldDefinition" value="0" />
+        <field name="Level2" type="StringTableFieldDefinition" value="1" />
+        <field name="Level3" type="StringTableFieldDefinition" value="1" />
+        <field name="Level4" type="StringTableFieldDefinition" value="2" />
+        <field name="Level5" type="StringTableFieldDefinition" value="2" />
+        <field name="Level6" type="StringTableFieldDefinition" value="3" />
+        <field name="Level7" type="StringTableFieldDefinition" value="3" />
+        <field name="Level8" type="StringTableFieldDefinition" value="4" />
+        <field name="Level9" type="StringTableFieldDefinition" value="4" />
+        <field name="Level10" type="StringTableFieldDefinition" value="5" />
+        <field name="Level11" type="StringTableFieldDefinition" value="5" />
+        <field name="Level12" type="StringTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

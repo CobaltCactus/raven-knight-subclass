@@ -1,0 +1,11 @@
+new entry "SOUL_ENHANCED"
+type "StatusData"
+data "StatusType" "BOOST"
+using "GREAT_WEAPON_MASTER_BONUS_ATTACK"
+data "DisplayName" "hb3625f72g610eg941fg7f7eg495601d4388c;1"
+data "Description" "hd39a255cg251eg43ccg571bga843833e92ce;1"
+data "StackId" "SOUL_ENHANCED"
+data "TickType" "EndTurn"
+data "Boosts" "IF(IsWeaponAttack()):DamageBonus(LevelMapValue(HalfFighterLevel)+ConstitutionModifier,Necrotic,false);"
+data "RemoveConditions" "IsWeaponAttack() and (not IsMiss() or IsCritical())"
+

@@ -1,0 +1,11 @@
+new entry "SoulSevering"
+type "PassiveData"
+data "DisplayName" "h0ec5195fg99ddg4f0bg7832gc77970c86432;2"
+data "Description" "hc67d57d9g2cc3g923ag223cgfffd92f44f00;2"
+data "Icon" "PassiveAction_GreatWeaponMaster_AllIn"
+data "PriorityOrder" "1"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "(((not HasStatus('WILDSHAPE_TECHNICAL',context.Target) and HasHPLessThan(1)) and not Ally() and Character()) or (HasDamageEffectFlag(DamageFlags.Critical) and not HasDamageEffectFlag(DamageFlags.Miss) and not Ally() and Character())) and not SpellId('Target_GreatWeaponMaster_BonusAttack') and IsWeaponAttack() and IsMeleeAttack();"
+data "StatsFunctors" "ApplyStatus(SELF, SOUL_ENHANCED,100,1)"
+

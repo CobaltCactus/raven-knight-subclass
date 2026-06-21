@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="200"/>
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="GameProject" type="LSString" value=""/>
+            <attribute id="Module" type="LSString" value="9844f8eb-4096-5a59-f6aa-8e6f1f2efa0f"/>
+            <attribute id="Name" type="LSString" value="Raven_Knight_Fighter_Subclass"/>
+            <attribute id="UUID" type="LSString" value="6e89c3e3-2a89-1833-fcf9-36ad9cd89021"/>
+            <attribute id="UpdatedDependencies" type="bool" value="true"/>
+            <children>
+                <node id="Categories"/>
+            </children>
+        </node>
+    </region>
+</save>

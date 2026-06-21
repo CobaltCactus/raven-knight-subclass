@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90e4eb33-c389-4d4a-86fd-a586c6c3de37" />
+        <field name="Name" type="NameTableFieldDefinition" value="SoulSevering" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0ec5195fg99ddg4f0bg7832gc77970c86432" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc67d57d9g2cc3g923ag223cgfffd92f44f00" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveAction_GreatWeaponMaster_AllIn" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="(((not HasStatus('WILDSHAPE_TECHNICAL',context.Target) and HasHPLessThan(1)) and not Ally() and Character()) or (HasDamageEffectFlag(DamageFlags.Critical) and not HasDamageEffectFlag(DamageFlags.Miss) and not Ally() and Character())) and not SpellId('Target_GreatWeaponMaster_BonusAttack') and IsWeaponAttack() and IsMeleeAttack();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, SOUL_ENHANCED,100,1)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
