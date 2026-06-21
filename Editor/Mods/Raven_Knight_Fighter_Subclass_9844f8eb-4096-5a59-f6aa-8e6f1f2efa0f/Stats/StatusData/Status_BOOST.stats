@@ -5,7 +5,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5e267a65-9399-4f52-b194-95374abfc951" />
         <field name="Name" type="NameTableFieldDefinition" value="SOUL_ENHANCED" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="64636799-c476-439b-bbe5-2a1e55c3abcd" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb3625f72g610eg941fg7f7eg495601d4388c" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd39a255cg251eg43ccg571bga843833e92ce" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="SOUL_ENHANCED" />
@@ -25,9 +24,8 @@
         <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_Fly_MO_Stop" />
         <field name="StackId" type="StringTableFieldDefinition" value="FEATHER_STEP" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="0" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,1.5,0);UnlockSpell(Projectile_Fly_Spell);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('LONGSTRIDER', context.Source) and Tagged('SHORT', context.Source)):UnlockSpellVariant(SpellId('Projectile_Feather_Step_Spell'),ModifyTargetRadius(Override,7.5),ModifyTooltipDescription());IF(HasStatus('LONGSTRIDER', context.Source) and Tagged('SHORT', context.Source)):UnlockSpellVariant(SpellId('Projectile_Feather_Step_Spell'),ModifyTargetRadius(Override,10.5),ModifyTooltipDescription());IF(not HasStatus('LONGSTRIDER', context.Source) and not Tagged('REALLY_WOODELF', context.Source) and not Tagged('SHORT', context.Source)):UnlockSpellVariant(SpellId('Projectile_Feather_Step_Spell'),ModifyTargetRadius(Override,9),ModifyTooltipDescription());IF(HasStatus('LONGSTRIDER', context.Source) and not Tagged('REALLY_WOODELF', context.Source) and not Tagged('SHORT', context.Source)):UnlockSpellVariant(SpellId('Projectile_Feather_Step_Spell'),ModifyTargetRadius(Override,12),ModifyTooltipDescription());IF(not HasStatus('LONGSTRIDER' ,context.Source) and Tagged('REALLY_WOODELF', context.Source) and not Tagged('SHORT', context.Source)):UnlockSpellVariant(SpellId('Projectile_Feather_Step_Spell'),ModifyTargetRadius(Override,10.5),ModifyTooltipDescription());IF(HasStatus('LONGSTRIDER', context.Source) and Tagged('REALLY_WOODELF', context.Source) and not Tagged('SHORT', context.Source)):UnlockSpellVariant(SpellId('Projectile_Feather_Step_Spell'),ModifyTargetRadius(Override,13.5),ModifyTooltipDescription());" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
-        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="70e3142f-6fde-4718-815f-a419e6bfaa23" />
       </fields>
     </stat_object>
   </stat_objects>

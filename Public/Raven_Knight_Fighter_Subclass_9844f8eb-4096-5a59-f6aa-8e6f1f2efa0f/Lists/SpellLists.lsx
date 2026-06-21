@@ -6,7 +6,7 @@
             <children>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Fighter (Raven Knight)"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_Feather_Step_Spell"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_Feather_Step_Spell;"/>
                     <attribute id="UUID" type="guid" value="4371355d-ef8c-4b3c-85bf-44c47ac88990"/>
                 </node>
             </children>

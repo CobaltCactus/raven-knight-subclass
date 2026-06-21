@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="bfa22a59-fd65-4e35-ae0f-ac960c3b5fd2">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="40fbfcf7-f97a-4246-ae52-20a248cadfab" />
+        <field name="Hidden" type="BoolTableFieldDefinition" value="True" />
+        <field name="Type" type="FixedStringTableFieldDefinition" value="UnlockSpellVariant" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="b8a6b087-8a96-486a-ba67-0f5e434309c6" />
+        <field name="PassivePrototype" type="FixedStringTableFieldDefinition" value="FeatherStep" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

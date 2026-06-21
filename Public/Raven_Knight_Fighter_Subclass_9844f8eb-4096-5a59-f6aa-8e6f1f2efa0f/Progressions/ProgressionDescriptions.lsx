@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="ProgressionDescriptions">
+        <node id="root">
+            <children>
+                <node id="ProgressionDescription">
+                    <attribute id="Hidden" type="bool" value="true"/>
+                    <attribute id="PassivePrototype" type="FixedString" value="FeatherStep"/>
+                    <attribute id="ProgressionTableId" type="guid" value="b8a6b087-8a96-486a-ba67-0f5e434309c6"/>
+                    <attribute id="Type" type="FixedString" value="UnlockSpellVariant"/>
+                    <attribute id="UUID" type="guid" value="40fbfcf7-f97a-4246-ae52-20a248cadfab"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

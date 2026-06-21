@@ -25,5 +25,7 @@ data "Description" "h2ce893e1g69a2gcc0dgfd95g8c022ba3aca4;1"
 data "Icon" "Action_Fly"
 data "PriorityOrder" "1"
 data "Properties" "Highlighted"
-data "StatsFunctors" "ApplyStatus(SELF, FEATHER_STEP100,1)"
+data "StatsFunctorContext" "OnStatusApplied;OnStatusRemove;OnStatusApply;OnStatusRemoved;OnActionResourcesChanged"
+data "Conditions" "(not HasStatus('FEATHER_STEP') and Character();"
+data "StatsFunctors" "ApplyStatus(SELF, FEATHER_STEP, 100, 1) "
 

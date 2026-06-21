@@ -34,9 +34,11 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Fly" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, FEATHER_STEP100,1)" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h446cb438g898dga43fgb8c3gcbf5d62d0a34" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2ce893e1g69a2gcc0dgfd95g8c022ba3aca4" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, FEATHER_STEP, 100, 1) " />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemove;OnStatusApply;OnStatusRemoved;OnActionResourcesChanged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="(not HasStatus('FEATHER_STEP') and Character();" />
       </fields>
     </stat_object>
   </stat_objects>
