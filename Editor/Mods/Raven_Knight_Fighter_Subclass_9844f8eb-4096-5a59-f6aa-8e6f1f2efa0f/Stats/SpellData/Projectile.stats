@@ -31,7 +31,7 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="8b2df096-373b-4323-b5bc-6cf2c3db8281" />
         <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" value="Small" enumeration_type_name="SpellSoundMagnitude" version="1" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="DontChange" enumeration_type_name="SpellSheathing" version="1" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="7.5" />
       </fields>
     </stat_object>
   </stat_objects>
