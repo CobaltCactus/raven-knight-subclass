@@ -32,6 +32,7 @@
         <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" value="Small" enumeration_type_name="SpellSoundMagnitude" version="1" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="DontChange" enumeration_type_name="SpellSheathing" version="1" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="7.5" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(FEATHER_STEP,100,1);" />
       </fields>
     </stat_object>
   </stat_objects>

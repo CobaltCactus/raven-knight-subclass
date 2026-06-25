@@ -11,8 +11,8 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="(((not HasStatus('WILDSHAPE_TECHNICAL',context.Target) and HasHPLessThan(1)) and not Ally() and Character()) or (HasDamageEffectFlag(DamageFlags.Critical) and not HasDamageEffectFlag(DamageFlags.Miss) and not Ally() and Character())) and IsAttack() and DistanceToTargetLessThan(2.5);" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, SOUL_ENHANCED,100,1);ApplyStatus(SOUL_SEVERED, 100, -1)" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasHPLessThan(1) and Enemy() and IsMeleeAttack() and Character();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,SOUL_ENHANCED,100,1);TARGET:ApplyStatus(SOUL_SEVERED, 100, -1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -36,9 +36,34 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h446cb438g898dga43fgb8c3gcbf5d62d0a34" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2ce893e1g69a2gcc0dgfd95g8c022ba3aca4" version="1" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, FEATHER_STEP, 100, 1) " />
-        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemove;OnStatusApply;OnStatusRemoved;OnActionResourcesChanged" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="(not HasStatus('FEATHER_STEP') and Character();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(FEATHER_STEP, 100, 1)" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="SpellId('Projectile_Feather_Step_Spell');" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Feather_Step_Spell);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a51a4966-788b-42f7-a0b8-671003914da4" />
+        <field name="Name" type="NameTableFieldDefinition" value="SentinelRaven" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h795591f5g739bg8d43gc900gabd50674ec09" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hefea4d9fg2b19g99f7g06e7g492c71efc583" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_SentinelRaven);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5d3816fc-ed0a-4561-81d7-1bda1672fcde" />
+        <field name="Name" type="NameTableFieldDefinition" value="BoonOfTheRavensworn" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd5b45089gc8cag472agad53g5ef8f632e51b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4fd7c3dcg5b9cgaa4dga241g25f1b23a12df" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Divination_ArcaneEye" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Ravensworn_Boon);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasHPLessThan(1) and Enemy() and IsMeleeAttack() and Character();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, RAVENSWORN_HP, 100, -1)" />
       </fields>
     </stat_object>
   </stat_objects>

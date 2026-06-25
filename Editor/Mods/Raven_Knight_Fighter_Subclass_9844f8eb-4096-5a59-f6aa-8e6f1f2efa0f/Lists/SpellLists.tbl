@@ -4,8 +4,22 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4371355d-ef8c-4b3c-85bf-44c47ac88990" />
-        <field name="Name" type="NameTableFieldDefinition" value="Fighter (Raven Knight)" />
+        <field name="Name" type="NameTableFieldDefinition" value="Raven Knight Feather Step" />
         <field name="Spells" type="StringTableFieldDefinition" value="Projectile_Feather_Step_Spell;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="afc3b909-79b2-4437-8ab5-a1330f4440f6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Raven Knight Sentinel" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_RavenSentinel;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bad7c53e-2779-41cd-8584-036d62df541c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Raven Knight Boon" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_Ravensworn_Boon" />
       </fields>
     </stat_object>
   </stat_objects>

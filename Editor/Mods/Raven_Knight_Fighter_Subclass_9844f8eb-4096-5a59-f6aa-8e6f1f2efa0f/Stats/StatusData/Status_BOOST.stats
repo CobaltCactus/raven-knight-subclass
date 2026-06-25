@@ -9,8 +9,9 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd39a255cg251eg43ccg571bga843833e92ce" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="SOUL_ENHANCED" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsWeaponAttack()):DamageBonus(LevelMapValue(HalfFighterLevel)+ConstitutionModifier,Necrotic,false);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageBonus(LevelMapValue(HalfFighterLevel)+ConstitutionModifier,Necrotic,false);" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="IsWeaponAttack() and (not IsMiss() or IsCritical())" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -23,9 +24,9 @@
         <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_Fly_MO" />
         <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_Fly_MO_Stop" />
         <field name="StackId" type="StringTableFieldDefinition" value="FEATHER_STEP" />
-        <field name="StackPriority" type="IntegerTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('LONGSTRIDER', context.Source) and Tagged('SHORT', context.Source)):UnlockSpellVariant(SpellId('Projectile_Feather_Step_Spell'),ModifyTargetRadius(Override,7.5),ModifyTooltipDescription());IF(HasStatus('LONGSTRIDER', context.Source) and Tagged('SHORT', context.Source)):UnlockSpellVariant(SpellId('Projectile_Feather_Step_Spell'),ModifyTargetRadius(Override,10.5),ModifyTooltipDescription());IF(not HasStatus('LONGSTRIDER', context.Source) and not Tagged('REALLY_WOODELF', context.Source) and not Tagged('SHORT', context.Source)):UnlockSpellVariant(SpellId('Projectile_Feather_Step_Spell'),ModifyTargetRadius(Override,9),ModifyTooltipDescription());IF(HasStatus('LONGSTRIDER', context.Source) and not Tagged('REALLY_WOODELF', context.Source) and not Tagged('SHORT', context.Source)):UnlockSpellVariant(SpellId('Projectile_Feather_Step_Spell'),ModifyTargetRadius(Override,12),ModifyTooltipDescription());IF(not HasStatus('LONGSTRIDER' ,context.Source) and Tagged('REALLY_WOODELF', context.Source) and not Tagged('SHORT', context.Source)):UnlockSpellVariant(SpellId('Projectile_Feather_Step_Spell'),ModifyTargetRadius(Override,10.5),ModifyTooltipDescription());IF(HasStatus('LONGSTRIDER', context.Source) and Tagged('REALLY_WOODELF', context.Source) and not Tagged('SHORT', context.Source)):UnlockSpellVariant(SpellId('Projectile_Feather_Step_Spell'),ModifyTargetRadius(Override,13.5),ModifyTooltipDescription());" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartRound" enumeration_type_name="TickType" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -36,9 +37,46 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h67051d2ag7de5g2611gbe6bg7fc8d0ad0361" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_MagicCircle_Undead" />
         <field name="StackId" type="StringTableFieldDefinition" value="SOUL_SEVERED" />
-        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndRound" enumeration_type_name="TickType" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="SwitchDeathType(Acid)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisableOverhead;DisableCombatlog;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1beada90-920c-416a-8531-581cbfdc2fdd" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAVENSWORN_BOON" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9e52ca12g82e5g21ffg91b4g419270758be7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h26eef047gd9dcgc1e3g95e1g6b2746c0882a" version="4" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Heroism" />
+        <field name="StackId" type="StringTableFieldDefinition" value="RAVENSWORN_BOON" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(RAVENSWORN_TEMP_HP,100,1)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageBonus(LevelMapValue(HalfFighterLevel)+ConstitutionModifier,Necrotic,false);" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="03288c04-83cf-4fd3-b350-bf1c5e282bb4" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="GainTemporaryHitPoints(LevelMapValue(HalfFighterLevel)+ProficiencyBonus);" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('SOUL_ENHANCED',context.Source)):ApplyStatus(RAVENSWORN_TEMP_HP,100,1)" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_Heroism_MO" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_Heroism_MO_Stop" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(RAVENSWORN_TEMP_HP)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ba9afe6a-52b5-495d-bf7f-8d4836f5e1b4" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAVENSWORN_TEMP_HP" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(LevelMapValue(HalfFighterLevel)+ProficiencyBonus);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3d477f16g84d5g466fg6b7cg03d734f4af71" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Heroism" />
+        <field name="StackId" type="StringTableFieldDefinition" value="RAVENSWORN_HP" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Stack" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="5" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

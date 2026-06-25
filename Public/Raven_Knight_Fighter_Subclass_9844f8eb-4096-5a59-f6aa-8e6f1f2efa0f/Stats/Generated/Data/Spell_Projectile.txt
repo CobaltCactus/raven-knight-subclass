@@ -1,6 +1,7 @@
 new entry "Projectile_Feather_Step_Spell"
 type "SpellData"
 data "SpellType" "Projectile"
+data "SpellProperties" "ApplyStatus(FEATHER_STEP,100,1);"
 data "TargetCeiling" "0.8"
 data "TargetFloor" "-1"
 data "TargetRadius" "7.5"

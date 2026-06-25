@@ -5,9 +5,19 @@
         <node id="root">
             <children>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Fighter (Raven Knight)"/>
+                    <attribute id="Name" type="FixedString" value="Raven Knight Feather Step"/>
                     <attribute id="Spells" type="LSString" value="Projectile_Feather_Step_Spell;"/>
                     <attribute id="UUID" type="guid" value="4371355d-ef8c-4b3c-85bf-44c47ac88990"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Raven Knight Sentinel"/>
+                    <attribute id="Spells" type="LSString" value="Target_RavenSentinel;"/>
+                    <attribute id="UUID" type="guid" value="afc3b909-79b2-4437-8ab5-a1330f4440f6"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Raven Knight Boon"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Ravensworn_Boon"/>
+                    <attribute id="UUID" type="guid" value="bad7c53e-2779-41cd-8584-036d62df541c"/>
                 </node>
             </children>
         </node>
