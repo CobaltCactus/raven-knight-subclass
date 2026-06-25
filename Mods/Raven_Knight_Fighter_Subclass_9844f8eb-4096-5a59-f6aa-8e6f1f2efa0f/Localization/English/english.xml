@@ -17,4 +17,32 @@
   <content contentuid="h42252a64g1972g2c72g8d47g52979a466e81" version="1">Feather Step</content>
   <content contentuid="h5eb026efg20b5gfdffg9a11gf2a1e47ccf49" version="1">Fly to a target position.</content>
   <content contentuid="h818b85d2g8af1g47b1g79fbge8f15ed885d6" version="1">Feather Step (Longstrider)</content>
+  <content contentuid="h7e4c74caga500g6597g361dg787fcd15d159" version="1">Soul Severed</content>
+  <content contentuid="h67051d2ag7de5g2611gbe6bg7fc8d0ad0361" version="1">This being's soul has been removed from its body rendering it impossible to be raised from the dead.</content>
+  <content contentuid="h604ba143g3dfcg6175ge0b2g2d300a990fc7" version="1">Create Undead</content>
+  <content contentuid="h27a4cf8dg4112gce57gaeefgd0d689158dff" version="1">Raise a corpse as a heinous mummy that fights by your side.</content>
+  <content contentuid="heac99ea2g7cbcg0b6fgf051g6da8aa15f09b" version="1">No Rest for the Wicked</content>
+  <content contentuid="h335e03f9g82f4g32f3g62f7ge2aacab3ff59" version="1">Death is but a temporary inconvenience - raise a fallen undead with half of its &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
+  <content contentuid="h9b7f4838g6349gbe10g2849g93469b28f373" version="1">No Rest for the Wicked</content>
+  <content contentuid="h3ec9445eg900dg7b19gdbefga093e2235f2c" version="1">Death is but a temporary inconvenience - raise a fallen undead with all of its &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
+  <content contentuid="h077857bfg0055gcd79g75b9g5fa9a8c09f7c" version="1">Animating Spores</content>
+  <content contentuid="h8852f9a6gc50bg7d47g8cd3gab23ca5aa1c0" version="1">Release spores at a corpse to animate it as a spore servant under your command. </content>
+  <content contentuid="h3db7a55bg9fc9g5a24g1e76ge4b96c20a03e" version="1">Animate Dead</content>
+  <content contentuid="hb4fae93eg0c0fgd2afg20e9g72b0db5f7121" version="1">Create an undead servant from a corpse.</content>
+  <content contentuid="hdc155997g695dg22fbgbab9gdb6c53c4c04e" version="1">Animate Dead</content>
+  <content contentuid="h40f395f5g7bfeg5feagd9afg4a32767a82e6" version="1">Animate a pile of bones or a corpse to serve you.</content>
+  <content contentuid="h68b1d742gaba2g98d7gb0edgad3050afb5cd" version="1">Create 3 ghouls that specialise in melee combat.</content>
+  <content contentuid="h814d5d5dg4a9dg7b7dg3c1ag375e4f568721" version="1">Animate Dead: Ghoul Pack</content>
+  <content contentuid="h8bf75e89gd2c1gc714g152dg0333e7fbc7bf" version="1">Animate Dead: Zombie</content>
+  <content contentuid="h7020d28dg0a6dg6c77gdc9bg1284b5de053d" version="1">Create a zombie that specialises in melee combat.</content>
+  <content contentuid="h0ef5ced9g2532g00b5g8f07gb70437393ac8" version="1">Create a ghoul that specialises in melee combat.</content>
+  <content contentuid="haaf5eb58g87ffgcd65g40bege8f808088901" version="1">Animate Dead: Ghoul</content>
+  <content contentuid="h3e0339e4gbeeegff8ag88c5g6494945b0607" version="1">Fungal Infestation</content>
+  <content contentuid="h5e2192a8gc88dgf776gec08g683ef1a9d003" version="1">Raise a mildewed, mould-encrusted zombie from a corpse. </content>
+  <content contentuid="h9f7c9fa4g4fcdg3f72ga52fgc51079c478fb" version="1">Animate Dead: Skeleton</content>
+  <content contentuid="h946fb700g36c0g2780gb349g699b5b2727a2" version="1">Create a skeleton that specialises in ranged combat.</content>
+  <content contentuid="hcea5b49egc555g5c0cg2a94ge8b345375461" version="1">Create 3 zombies that specialise in melee combat.</content>
+  <content contentuid="h1ca6a026g8974g518ag17c3g185a8fc4ccc8" version="1">Animate Dead: Zombie Battalion</content>
+  <content contentuid="h1315b203gc8adgabb4g9841g5c2bff4dbf18" version="1">Animate Dead: Zombie</content>
+  <content contentuid="h29441a28gd78fg7a9bga037g99012943ab3a" version="1">Create a zombie that specialises in melee combat.</content>
 </contentList>

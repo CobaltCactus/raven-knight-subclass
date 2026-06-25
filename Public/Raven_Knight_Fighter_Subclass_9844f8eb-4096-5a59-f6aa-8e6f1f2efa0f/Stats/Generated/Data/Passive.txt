@@ -7,7 +7,7 @@ data "PriorityOrder" "1"
 data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnAttack"
 data "Conditions" "(((not HasStatus('WILDSHAPE_TECHNICAL',context.Target) and HasHPLessThan(1)) and not Ally() and Character()) or (HasDamageEffectFlag(DamageFlags.Critical) and not HasDamageEffectFlag(DamageFlags.Miss) and not Ally() and Character())) and IsAttack() and DistanceToTargetLessThan(2.5);"
-data "StatsFunctors" "ApplyStatus(SELF, SOUL_ENHANCED,100,1)"
+data "StatsFunctors" "ApplyStatus(SELF, SOUL_ENHANCED,100,1);ApplyStatus(SOUL_SEVERED, 100, -1)"
 
 new entry "RavenMedicineProficiency"
 type "PassiveData"
