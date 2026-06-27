@@ -31,9 +31,8 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f939443e-9967-4288-9996-3e1b6aba70d4" />
         <field name="Name" type="NameTableFieldDefinition" value="FeatherStep" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Fly" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h446cb438g898dga43fgb8c3gcbf5d62d0a34" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2ce893e1g69a2gcc0dgfd95g8c022ba3aca4" version="1" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(FEATHER_STEP, 100, 1)" />
@@ -59,7 +58,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd5b45089gc8cag472agad53g5ef8f632e51b" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4fd7c3dcg5b9cgaa4dga241g25f1b23a12df" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Divination_ArcaneEye" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Ravensworn_Boon);" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasHPLessThan(1) and Enemy() and IsMeleeAttack() and Character();" />
