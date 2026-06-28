@@ -10,7 +10,7 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_RavenswornBoon" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc9af6a0fg556cgd7ebga06cgc225926abe18" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="heed43f53g5832g908cgc5a2g9fb5c6d7046c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="heed43f53g5832g908cgc5a2g9fb5c6d7046c" version="2" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RAVENSWORN_BOON,100,5);" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />

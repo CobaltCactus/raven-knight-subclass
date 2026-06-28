@@ -7,7 +7,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Feather_Step_Spell" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Surface('SurfaceChasm');" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h42252a64g1972g2c72g8d47g52979a466e81" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5eb026efg20b5gfdffg9a11gf2a1e47ccf49" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5eb026efg20b5gfdffg9a11gf2a1e47ccf49" version="2" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />
         <field name="TargetCeiling" type="StringTableFieldDefinition" value="0.8" />
         <field name="TargetFloor" type="StringTableFieldDefinition" value="-1" />

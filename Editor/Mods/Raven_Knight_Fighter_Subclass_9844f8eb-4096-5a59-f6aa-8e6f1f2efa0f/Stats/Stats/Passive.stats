@@ -6,7 +6,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="90e4eb33-c389-4d4a-86fd-a586c6c3de37" />
         <field name="Name" type="NameTableFieldDefinition" value="SoulSevering" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0ec5195fg99ddg4f0bg7832gc77970c86432" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc67d57d9g2cc3g923ag223cgfffd92f44f00" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc67d57d9g2cc3g923ag223cgfffd92f44f00" version="3" />
         <field name="Icon" type="StringTableFieldDefinition" value="Passive_SoulSevering" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -34,7 +34,7 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h446cb438g898dga43fgb8c3gcbf5d62d0a34" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2ce893e1g69a2gcc0dgfd95g8c022ba3aca4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2ce893e1g69a2gcc0dgfd95g8c022ba3aca4" version="2" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(FEATHER_STEP, 100, 1)" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="SpellId('Projectile_Feather_Step_Spell');" />
@@ -46,7 +46,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a51a4966-788b-42f7-a0b8-671003914da4" />
         <field name="Name" type="NameTableFieldDefinition" value="SentinelRaven" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h795591f5g739bg8d43gc900gabd50674ec09" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hefea4d9fg2b19g99f7g06e7g492c71efc583" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hefea4d9fg2b19g99f7g06e7g492c71efc583" version="2" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_SentinelRaven);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FindFamiliar" />
@@ -57,7 +57,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5d3816fc-ed0a-4561-81d7-1bda1672fcde" />
         <field name="Name" type="NameTableFieldDefinition" value="BoonOfTheRavensworn" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd5b45089gc8cag472agad53g5ef8f632e51b" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4fd7c3dcg5b9cgaa4dga241g25f1b23a12df" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4fd7c3dcg5b9cgaa4dga241g25f1b23a12df" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_RavenswornBoon" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Ravensworn_Boon);" />

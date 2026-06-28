@@ -6,7 +6,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5e267a65-9399-4f52-b194-95374abfc951" />
         <field name="Name" type="NameTableFieldDefinition" value="SOUL_ENHANCED" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb3625f72g610eg941fg7f7eg495601d4388c" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd39a255cg251eg43ccg571bga843833e92ce" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd39a255cg251eg43ccg571bga843833e92ce" version="3" />
         <field name="StackId" type="StringTableFieldDefinition" value="SOUL_ENHANCED" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="DamageBonus(LevelMapValue(HalfFighterLevel)+ConstitutionModifier,Necrotic,false);" />

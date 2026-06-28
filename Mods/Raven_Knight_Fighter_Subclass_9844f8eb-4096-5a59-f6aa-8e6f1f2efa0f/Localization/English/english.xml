@@ -3,19 +3,19 @@
   <content contentuid="h4e840505g27b6g4f06g1eb4g85a8ec1f4283" version="1">Soul Severing</content>
   <content contentuid="h4e865d84g44afg68b5gc703g6354ae84e523" version="2">When an enemy dies within 15 ft of you, you empower your weapon with that creature's soul's energy. Your next weapon attack does necrotic damage equal to half your fighter level.</content>
   <content contentuid="hb3625f72g610eg941fg7f7eg495601d4388c" version="1">Soul Enhanced</content>
-  <content contentuid="hd39a255cg251eg43ccg571bga843833e92ce" version="1">You are empowered with a soul severed from your enemy. Your next attack inflicts additional necrotic damage equal to half your fighter level. </content>
+  <content contentuid="hd39a255cg251eg43ccg571bga843833e92ce" version="3">You are empowered with a soul severed from your enemy. Until the end of your next turn, if your next attack connects, it inflicts additional necrotic damage equal to half your fighter level plus your Constitution modifier.</content>
   <content contentuid="hcc26341eg1145g84beg321cg1ece739c431d" version="1">Raven Knight</content>
   <content contentuid="h6111b76fgae97g83bcga065g0e3f24e7b8b6" version="1">You are a Raven Knight, charged by the Raven Queen herself to protect Her realm and the Shadowfel from all those who would abuse its dark power.</content>
   <content contentuid="h0ec5195fg99ddg4f0bg7832gc77970c86432" version="2"> Soul Severing</content>
-  <content contentuid="hc67d57d9g2cc3g923ag223cgfffd92f44f00" version="2">When an enemy dies within 15 ft of you, you empower your weapon with that creature's soul's energy. Your next weapon attack does necrotic damage equal to half your fighter level.</content>
+  <content contentuid="hc67d57d9g2cc3g923ag223cgfffd92f44f00" version="3">When an enemy dies within 15 ft of you, you empower your weapon with that creature's soul's energy. Until the end of your next turn, if your next attack connects, it inflicts additional necrotic damage equal to half your fighter level plus your Constitution modifier.</content>
   <content contentuid="hdac0ba5cg6a41g416ag9595g43610462d5d9" version="1">Medicine Proficiency</content>
   <content contentuid="h98046f65gebc7gf54cg06c2g04c26c8df5b5" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Medicine.</content>
   <content contentuid="he075b84bge872g8851g2f6eg2b301a1c0d18" version="1">Feather Step</content>
   <content contentuid="hbac354fag68b8gba21g9fecgd10b6f484e0d" version="1">You move with the grace of the raven. Your walking speed increases by 10ft. Additionally, as a bonus action, you gain a flight speed equal to your walking speed until the end of your turn. If you end your turn in midair, you drop to the ground.</content>
   <content contentuid="h446cb438g898dga43fgb8c3gcbf5d62d0a34" version="1">Feather Step</content>
-  <content contentuid="h2ce893e1g69a2gcc0dgfd95g8c022ba3aca4" version="1">Flight skill</content>
+  <content contentuid="h2ce893e1g69a2gcc0dgfd95g8c022ba3aca4" version="2">You gain flight speed equal to your walking speed until the end of your turn.</content>
   <content contentuid="h42252a64g1972g2c72g8d47g52979a466e81" version="1">Feather Step</content>
-  <content contentuid="h5eb026efg20b5gfdffg9a11gf2a1e47ccf49" version="1">Fly to a target position.</content>
+  <content contentuid="h5eb026efg20b5gfdffg9a11gf2a1e47ccf49" version="2">You gain flight speed equal to your walking speed until the end of your turn.</content>
   <content contentuid="h818b85d2g8af1g47b1g79fbge8f15ed885d6" version="1">Feather Step (Longstrider)</content>
   <content contentuid="h7e4c74caga500g6597g361dg787fcd15d159" version="1">Soul Severed</content>
   <content contentuid="h67051d2ag7de5g2611gbe6bg7fc8d0ad0361" version="1">This being's soul has been removed from its body rendering it impossible to be raised from the dead.</content>
@@ -47,7 +47,7 @@
   <content contentuid="h29441a28gd78fg7a9bga037g99012943ab3a" version="1">Create a zombie that specialises in melee combat.</content>
   <content contentuid="h16bd0e8dgea3eg9d57g0bbcgbf4d0401a986" version="1">Nyx</content>
   <content contentuid="h795591f5g739bg8d43gc900gabd50674ec09" version="1">Sentinel Raven</content>
-  <content contentuid="hefea4d9fg2b19g99f7g06e7g492c71efc583" version="1">You can summon a raven companion.</content>
+  <content contentuid="hefea4d9fg2b19g99f7g06e7g492c71efc583" version="2">You can summon a raven companion in the color of your choosing.</content>
   <content contentuid="ha8e7658eg468fgffefg1018g0cfa860c5bb0" version="1">Find Raven Sentinel</content>
   <content contentuid="he0b7d883gdef4gba57g535egb11afe17068f" version="1">Summon a raven in the color of your choosing.</content>
   <content contentuid="hb4df417dgdde4g246fg2bcbg68fc3d9328ce" version="1">Find Raven Sentinel: Black Raven</content>
@@ -59,9 +59,9 @@
   <content contentuid="h78d216c9gda9bgf56bge8ebge8c55ceb6de6" version="1">Boon of the Ravensworn</content>
   <content contentuid="hc1b47178g45efgb683g6f9bg77ba73b2c8a0" version="1">You connect directly to the Shadowfell, channeling its energies into your strikes for one minute. You now gain the bonus damage from Soul Severing without the need to have recently killed an enemy. Additionally, when you kill an enemy in this state you coalesce their soul around your form, gaining temporary hit points equal to half your fighter level plus your proficiency bonus.</content>
   <content contentuid="hd5b45089gc8cag472agad53g5ef8f632e51b" version="1">Boon of the Ravensworn</content>
-  <content contentuid="h4fd7c3dcg5b9cgaa4dga241g25f1b23a12df" version="1">You connect directly to the Shadowfell, channeling its energies into your strikes for one minute. You now gain the bonus damage from Soul Severing without the need to have recently killed an enemy. Additionally, when you kill an enemy in this state you coalesce their soul around your form, gaining temporary hit points equal to half your fighter level plus your proficiency bonus.</content>
+  <content contentuid="h4fd7c3dcg5b9cgaa4dga241g25f1b23a12df" version="2">You connect directly to the Shadowfell, channeling its energies into your strikes for one minute. You now gain the bonus damage from Soul Severing without the need to have recently killed an enemy. Additionally, when you kill an enemy in this state you coalesce their soul around your form, gaining temporary hit points equal to half your fighter level plus your proficiency bonus. (Temporary HP resets upon enemy kill. It does not stack.)</content>
   <content contentuid="hc9af6a0fg556cgd7ebga06cgc225926abe18" version="1">Boon of the Ravensworn</content>
-  <content contentuid="heed43f53g5832g908cgc5a2g9fb5c6d7046c" version="1">You connect directly to the Shadowfell, channeling its energies into your strikes for one minute. You now gain the bonus damage from Soul Severing without the need to have recently killed an enemy. Additionally, when you kill an enemy in this state you coalesce their soul around your form, gaining temporary hit points equal to half your fighter level plus your proficiency bonus.</content>
+  <content contentuid="heed43f53g5832g908cgc5a2g9fb5c6d7046c" version="2">You connect directly to the Shadowfell, channeling its energies into your strikes for one minute. You now gain the bonus damage from Soul Severing without the need to have recently killed an enemy. Additionally, when you kill an enemy in this state you coalesce their soul around your form, gaining temporary hit points equal to half your fighter level plus your proficiency bonus. (Temporary HP resets upon enemy kill. It does not stack.)</content>
   <content contentuid="hd6c7d39eg0c39ge9b8ga8c4gcc504cc1f2d5" version="1">Ravensworn HP</content>
   <content contentuid="h0dbe1be1gacd5gf1fdg735bga2f36528b988" version="1">Test</content>
   <content contentuid="h9e52ca12g82e5g21ffg91b4g419270758be7" version="1">Ravensworn Boon</content>
