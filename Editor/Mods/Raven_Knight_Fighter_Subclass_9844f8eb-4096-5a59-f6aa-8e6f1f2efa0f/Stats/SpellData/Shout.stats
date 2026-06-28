@@ -8,12 +8,12 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerCombat" enumeration_type_name="CooldownType" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RAVENSWORN_BOON,100,10);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Divination_ArcaneEye" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_RavenswornBoon" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc9af6a0fg556cgd7ebga06cgc225926abe18" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="heed43f53g5832g908cgc5a2g9fb5c6d7046c" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RAVENSWORN_BOON,100,5);" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />

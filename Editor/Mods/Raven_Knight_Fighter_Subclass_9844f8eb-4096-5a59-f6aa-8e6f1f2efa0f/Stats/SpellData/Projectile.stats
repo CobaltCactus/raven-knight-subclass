@@ -13,7 +13,7 @@
         <field name="TargetFloor" type="StringTableFieldDefinition" value="-1" />
         <field name="ProjectileCount" type="StringTableFieldDefinition" value="1" />
         <field name="Trajectories" type="StringTableFieldDefinition" value="64046453-9e1f-4f1d-a86d-f4dc4acff457,50f2bac9-61a4-489c-c70f-c3881062f2a2,d9e4cf4d-3a9a-d3d5-8ee3-afcf139aa3dc" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Fly" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Feather_Step_Spell" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Action_Prepare_Fly" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Action_Loop_Fly" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Fly" />

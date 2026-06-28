@@ -12,6 +12,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="DamageBonus(LevelMapValue(HalfFighterLevel)+ConstitutionModifier,Necrotic,false);" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="IsWeaponAttack() and (not IsMiss() or IsCritical())" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Passive_SoulEnhanced" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -20,7 +21,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="FEATHER_STEP" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he075b84bge872g8851g2f6eg2b301a1c0d18" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbac354fag68b8gba21g9fecgd10b6f484e0d" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Status_Fly" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Feather_Step_Spell" />
         <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_Fly_MO" />
         <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_Fly_MO_Stop" />
         <field name="StackId" type="StringTableFieldDefinition" value="FEATHER_STEP" />
@@ -35,7 +36,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SOUL_SEVERED" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7e4c74caga500g6597g361dg787fcd15d159" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h67051d2ag7de5g2611gbe6bg7fc8d0ad0361" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_MagicCircle_Undead" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Debuff_SoulSevered" />
         <field name="StackId" type="StringTableFieldDefinition" value="SOUL_SEVERED" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="SwitchDeathType(Acid)" />
@@ -48,7 +49,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="RAVENSWORN_BOON" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9e52ca12g82e5g21ffg91b4g419270758be7" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h26eef047gd9dcgc1e3g95e1g6b2746c0882a" version="4" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Heroism" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_RavenswornBoon" />
         <field name="StackId" type="StringTableFieldDefinition" value="RAVENSWORN_BOON" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(RAVENSWORN_TEMP_HP,100,1)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="DamageBonus(LevelMapValue(HalfFighterLevel)+ConstitutionModifier,Necrotic,false);" />
@@ -72,7 +73,6 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(LevelMapValue(HalfFighterLevel)+ProficiencyBonus);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3d477f16g84d5g466fg6b7cg03d734f4af71" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Heroism" />
         <field name="StackId" type="StringTableFieldDefinition" value="RAVENSWORN_HP" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Stack" enumeration_type_name="StatusStackType" version="1" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="5" />
