@@ -7,7 +7,7 @@ data "PriorityOrder" "1"
 data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnAttack"
 data "Conditions" "HasHPLessThan(1) and Enemy() and IsMeleeAttack() and Character();"
-data "StatsFunctors" "ApplyStatus(SELF,SOUL_ENHANCED,100,1);TARGET:ApplyStatus(SOUL_SEVERED, 100, -1)"
+data "StatsFunctors" "ApplyStatus(SELF,SOUL_ENHANCED,100,2);TARGET:ApplyStatus(SOUL_SEVERED, 100, -1)"
 
 new entry "RavenMedicineProficiency"
 type "PassiveData"
