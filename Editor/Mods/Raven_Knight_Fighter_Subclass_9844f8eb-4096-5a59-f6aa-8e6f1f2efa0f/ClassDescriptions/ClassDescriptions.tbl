@@ -6,7 +6,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_7" />
         <field name="UUID" type="IdTableFieldDefinition" value="f277e916-c112-4b57-aa2c-89a37d122e45" />
         <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="721dfac3-92d4-41f5-b773-b7072a86232f" />
-        <field name="NameFS" type="FixedStringTableFieldDefinition" value="RavenKnight" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Fighter_RavenKnight" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcc26341eg1145g84beg321cg1ece739c431d" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6111b76fgae97g83bcga065g0e3f24e7b8b6" version="1" />
         <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
